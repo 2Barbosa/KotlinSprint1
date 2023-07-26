@@ -1,5 +1,8 @@
 package lesson_1
 
 fun main() {
-    println("Это решение задачи 1 из урока 1")
+    var numberOrders: Byte  = 75
+    var notificationText: String = "Благодарим за покупку!"
+    println(notificationText)
+    println(numberOrders)
 }
