@@ -6,5 +6,5 @@ fun main() {
     val flightInMinuts = 108
     val timeHour = flightInMinuts / 60
     val timeMinuts = flightInMinuts % 60
-    println("Время полета - 0$timeHour:$timeMinuts")
+    println("Время полета - 0$timeHour:$timeMinuts:00")
 }
