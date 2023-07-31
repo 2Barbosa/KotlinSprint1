@@ -5,10 +5,14 @@ fun main() {
     var number = 2
     var number1 = 4
     var stepNum = 1
-    var move = letter + number + "-" + letter + number1 + ";" + stepNum
-    println(move)
+    var stepFrom = letter + number
+    var stepTo = letter + number1
+    println("$stepFrom-$stepTo;$stepNum")
     letter = "D"
-    move = letter + number + "-" + letter + ++number + ";" + ++stepNum
-    println(move)
+    stepFrom = letter + number
+    stepTo = letter + ++number
+    stepNum = 2
+    println("$stepFrom-$stepTo;$stepNum")
+
 
 }
