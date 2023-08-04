@@ -3,7 +3,7 @@ package lesson_4
 fun main() {
    var cargoWeight = 42
    var cargoVolume = 120
-   val comparisonResult = (cargoWeight > MIN_WEIGHT_AVERAGE) && (cargoWeight < MAX_WEIGHT_AVERAGE) && (cargoVolume < MAX_VOLUME_AVERAGE)
+   val comparisonResult = (cargoWeight > MIN_WEIGHT_AVERAGE) && (cargoWeight <= MAX_WEIGHT_AVERAGE) && (cargoVolume < MAX_VOLUME_AVERAGE)
    println("Груз с весом 42 кг и объемом 120 л соответствует категории AVERAGE - $comparisonResult")
    cargoWeight = 20
    cargoVolume = 80
