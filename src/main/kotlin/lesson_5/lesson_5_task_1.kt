@@ -4,13 +4,14 @@ fun main() {
 
     println("Решите тест 2 + 3")
 
-    val userTest = readLine()!!.toInt()
+    val userTest = readln()!!.toInt()
 
-    val resultText = if (userTest == RIGHT_RESULT) "Добро пожаловать"
+    val resultText = if (userTest == NUMBER + NUMBER_1) "Добро пожаловать"
     else "Доступ запрещен"
 
     println(resultText)
 
 }
 
-const val  RIGHT_RESULT = 5
+const val  NUMBER = 2
+const val NUMBER_1 = 3
