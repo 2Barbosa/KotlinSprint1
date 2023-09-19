@@ -10,8 +10,7 @@ fun main() {
     else "Доступ запрещен"
 
     println(resultText)
-
 }
 
-const val  NUMBER = 2
+const val NUMBER = 2
 const val NUMBER_1 = 3
