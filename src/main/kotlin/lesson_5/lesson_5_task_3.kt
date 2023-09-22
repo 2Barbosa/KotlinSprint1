@@ -4,8 +4,8 @@ fun main() {
 
     println("Надо угадать два числа от 1 до 100")
 
-    val userNumber = readLine()!!.toInt()
-    val userNumber1 = readLine()!!.toInt()
+    val userNumber = readln().toInt()
+    val userNumber1 = readln().toInt()
 
     val resultText = if (userNumber == RIGHT_NUMBER || userNumber == RIGHT_NUMBER_1) {
         println("Поздравляем! Вы выиграли утешительный приз!")
