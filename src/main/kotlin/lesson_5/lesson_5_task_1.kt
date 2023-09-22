@@ -4,10 +4,10 @@ fun main() {
 
     println("Решите тест 2 + 3")
 
-    val userTest = readln()!!.toInt()
+    val userTest = readln().toInt()
 
-    val resultText = if (userTest == NUMBER + NUMBER_1) "Добро пожаловать"
-    else "Доступ запрещен"
+    val resultText = if (userTest == NUMBER + NUMBER_1) "Добро пожаловать !"
+    else "Доступ запрещен."
 
     println(resultText)
 }
